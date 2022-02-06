@@ -50,3 +50,36 @@ section {
 .hero {
     text-align: center;
 }
+
+.left-col {
+    .sub-head {
+        text-transform: uppercase;
+        color: gray;
+        font-weight: bold;
+        letter-spacing: .3em;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+}
+
+.right-col {
+    #custom-button {
+        padding: 10px;
+        color: white;
+        background-color: #009578;
+        border: 1px solid #000;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    #custom-button:hover {
+        background-color: #00b2f8;
+    }
+
+    #custom-text {
+        margin-left: 10px;
+        color: #aaa;
+    }
+}
